@@ -56,7 +56,7 @@ The BubbleChat component accepts the following props:
 | onPressed | function | undefined | Allows you to define a custom function to be executed when the bubble is pressed. |
 
 ## License
-This library is open-source and available under the [MIT License]([https://link-url-here.org](https://github.com/gus-ka/react-native-bubble-chat/blob/main/LICENSE)).
+This library is open-source and available under the [MIT License](https://link-url-here.org](https://github.com/gus-ka/react-native-bubble-chat/blob/main/LICENSE)).
 
 ## Acknowledgments
 Thanks to the React Native community for inspiration and support.
