@@ -1,36 +1,50 @@
 {
   "name": "react-native-bubble-chat",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "private": false,
+  "description": "This lib. provides a range of options to create stylish chat bubbles with ease",
+  "main": "index.tsx",
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.72.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gus-ka/react-native-bubble-chat.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "bubble",
+    "chat",
+    "view"
+  ],
+  "author": "Guska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gus-ka/react-native-bubble-chat/issues"
+  },
+  "contributors": [
+    {
+      "name": "Guska",
+      "email": "ipg.guska.p@gmail.com",
+      "url": "https://github.com/gus-ka"
+    }
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.20.0",
-    "@babel/runtime": "^7.20.0",
-    "@react-native/eslint-config": "^0.72.2",
-    "@react-native/metro-config": "^0.72.11",
-    "@tsconfig/react-native": "^3.0.0",
     "@types/react": "^18.0.24",
-    "@types/react-test-renderer": "^18.0.0",
-    "babel-jest": "^29.2.1",
-    "eslint": "^8.19.0",
-    "jest": "^29.2.1",
-    "metro-react-native-babel-preset": "0.76.8",
-    "prettier": "^2.4.1",
-    "react-test-renderer": "18.2.0",
+    "@types/react-native": "~0.69.1",
+    "@tsconfig/react-native": "^3.0.0",
     "typescript": "4.8.4"
   },
-  "engines": {
-    "node": ">=16"
+  "homepage": "https://github.com/gus-ka/react-native-bubble-chat#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint:fix && yarn prettier && yarn tsc"
+    }
   }
 }
